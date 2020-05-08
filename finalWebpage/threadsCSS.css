@@ -1,0 +1,232 @@
+
+
+body{
+ 
+  
+}
+
+.header{
+    margin-top: -8px;
+    margin-left:-8px ;
+    margin-right: -8px;
+}
+
+
+#headerItemDisplay,#headerMensPage{
+    margin-top: -8px;
+    margin-left:-8px ;
+    margin-right: -8px;
+
+}
+
+#headerHome{
+ margin-top: -8px;
+ margin-left:-8px ;
+ margin-right: -8px;
+ padding-bottom:7em;
+ background-image: url("threadsImages/storeInsideV4.png");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+
+
+
+   
+
+.navBar{
+    text-align: center;
+    background-image: linear-gradient(black, white); 
+    
+}
+
+.navBar a{
+    text-decoration:none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    color:white;
+    
+}
+.underline{
+
+    text-decoration: underline;
+}
+.navBar a:hover{
+    color:black;
+    background-color:white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#mensLink,#womensLink{
+  color:black;
+    font-size: 3em;
+    -webkit-text-stroke: 1px black;
+}
+
+#websiteTitle{
+  
+    color: black;
+  font-size: 7em;
+}
+
+
+#shoppingCart{
+    margin-top: 7em;
+    position: absolute;
+    right: 0;
+}
+
+header p{
+
+    padding: 8em;
+}
+
+/*homepage body*/
+#bannerImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+#mensCat,#womensCat{
+
+    text-align: center;
+    font-size: 5em;
+}
+
+.mensPics,.womensPics{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mensPics img,.womensPics img{
+    width:400;
+    height: 300px;      
+}
+
+.mensPics img:hover,.womensPics img:hover{
+    transform: scale(1.1);
+}
+
+/*mens page body*/
+.inventory{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 3em;
+    margin-left: 3em;
+
+}
+
+#mensPageTitle{
+
+margin-left: 1em;
+font-size: 5em;
+
+}
+
+.inventory h2{
+font-size: 2em;
+
+}
+.inventory h3{
+    font-size: 1em;
+}
+
+.item,.item1,.item2{
+    border:2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+   
+}
+
+.item img,.item1 img,.item2 img{
+width: 400px;
+height: 400px;
+}
+
+/*itemDisplay page body*/
+
+.itemDisplay{
+
+    display: inline-flex;
+    margin-right: -8px;
+}
+
+#pageLocation{
+margin-left: 3em;
+font-size: large;
+color: grey;
+}
+
+.pictures {
+
+display: inline-flex;
+  }
+
+.pictures img{
+    width:150px;
+    height: 150px;
+
+}
+
+.extraPictures{
+    display:grid;
+    margin-left: 3em;
+    padding: 2em;
+    padding-top: 0em;
+}
+
+
+.itemPicture img{
+    width: 400px;
+    height:400px;
+}
+
+.itemInfo{
+    display:grid;
+    padding-left:3em;
+   text-align: center;
+   
+}
+
+.itemInfo h2{
+
+  font-size: 3em;
+}
+
+#description{
+
+    font-size: 3em;
+border-bottom:2px solid grey ;
+margin-bottom: 0em;
+}
+#price{
+margin-top: 0em;
+    font-size: 3em;
+}
+.itemInfo button{
+
+
+}
+
+.Description{
+
+    margin-left: 4em;
+    margin-right: 4em;
+    
+}
+
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    color:white;
+    padding-bottom: 2em;
+    margin-top: 2em;
+    margin-bottom: -8px;
+    margin-left:-8px ;
+    margin-right: -8px;
+}
