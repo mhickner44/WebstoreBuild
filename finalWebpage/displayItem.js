@@ -64,8 +64,15 @@ pdescription.innerHTML=theItem[0].pdescription;
 }
 
 function tanShortsDisplay(){
+
+    jsonStuff = request.response; //this is the data, so let's store it in a variable
+    console.log(jsonStuff);
+    theItem=jsonStuff['items'];
+
     bottomItems.style.display="none";
     displayItem.style.display="initial";
     
+    image1.src=theItem[1].image1;
+pdescription.innerHTML=theItem[1].pdescription;
 }
 
