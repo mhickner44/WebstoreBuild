@@ -131,6 +131,7 @@ header p{
     justify-content: space-evenly;
     margin-right: 3em;
     margin-left: 3em;
+    display: initial;
 
 }
 .item,.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8{
