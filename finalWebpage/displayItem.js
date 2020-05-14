@@ -47,19 +47,14 @@ request.onload = function() { // stop until the request is done
 //i believe each image will have to have a different hide display because 
 //the code for the specific item will go in there
 
-var jsonStuff;
-
-request.onload = function() { // stop until the request is done
-    items = request.response; //this is the data, so let's store it in a variable
-    console.log(items);
-   // blueJeansDisplay(items);//this line sends the information to the function
-jsonStuff=items;
-}
 
 
-function blueJeansDisplay(jsonStuff) {
-    
+
+function blueJeansDisplay() {
+    jsonStuff = request.response; //this is the data, so let's store it in a variable
+    console.log(jsonStuff);
     theItem=jsonStuff['items'];
+    
     bottomItems.style.display="none";
     displayItem.style.display="initial";
 
