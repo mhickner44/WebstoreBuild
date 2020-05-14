@@ -1,0 +1,22 @@
+{
+"items":[
+{
+    "image1":"../threadsImages/mensBottoms/frontBlueJeans.jpg",
+    "image2":"../threadsImages/mensBottoms/backBlueJeans.jpg",
+    "itemTitle":"Blue Jeans",
+    "Price":"$15.00",
+    "pdescription":"Some nice blue jeans. Made of denim in the USA."
+},
+
+{
+    "image1":"../threadsImages/mensBottoms/frontShorts.jpg",
+    "image2":"../threadsImages/mensBottoms/BackShorts.jpg",
+    "itemTitle":"Tan Shorts",
+    "Price":"$30.00",
+    "pdescription":"Tan shorts made of a stretchy material with an extra side pocket."
+}
+]
+
+
+
+}
