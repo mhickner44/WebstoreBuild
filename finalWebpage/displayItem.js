@@ -40,6 +40,7 @@ request.send();  //send the GET request, but it takes some time to get back
 request.onload = function() { // stop until the request is done
     items = request.response; //this is the data, so let's store it in a variable
     console.log(items);
+    blueJeansDisplay(items);//this line sends the information to the function
 }
 
 //i believe each image will have to have a different hide display because 
