@@ -1,0 +1,67 @@
+{
+    "items": [
+        {
+            "image1": "../threadsImages/womensBottoms/lightBluePants.jpg",
+            "image2": "../threadsImages/womensBottoms/.jpg",
+            "itemTitle": "Light Blue Pants",
+            "Price": "$30.00",
+            "pdescription": "Stylish light blue pants."
+        }, {
+            "image1": "../threadsImages/womensBottoms/womansBlackPants.jpg",
+            "image2": "../threadsImages/womensBottoms/.jpg",
+            "itemTitle": "Black Pants",
+            "Price": "$23.00",
+            "pdescription": "Black joggers good for running our lounging around."
+        },{
+            "image1": "../threadsImages/womensBottoms/womensBlueJeans.jpg",
+            "image2": "../threadsImages/womensBottoms/.jpg",
+            "itemTitle": "Blue Jeans",
+            "Price": "$21.00",
+            "pdescription": "You can never go wrong with classic blue jeans."
+        },{
+            "image1": "../threadsImages/womensShoes/womansBlackHeels.jpg",
+            "image2": "../threadsImages/womensShoes/womansSparkleHeels.jpg",
+            "itemTitle": "Black Heels",
+            "Price": "$60.00",
+            "pdescription": "High black heels for dressing up."
+        },{
+            "image1": "../threadsImages/womensShoes/womensWhiteShoes.jpg",
+            "image2": "../threadsImages/womensShoes/.jpg",
+            "itemTitle": "White Shoes",
+            "Price": "$80.00",
+            "pdescription": "Classics look that is timeless."
+        },{
+            "image1": "../threadsImages/womensShoes/womansSparkeHeels.jpg",
+            "image2": "../threadsImages/womensShoes/.jpg",
+            "itemTitle": "SparklyHeels",
+            "Price": "$100.00",
+            "pdescription": "Make a statement in these high heels."
+        },{
+            "image1": "../threadsImages/womensTops/womansBlueTop.jpg",
+            "image2": "../threadsImages/womensTops/.jpg",
+            "itemTitle": "Blue Shirt ",
+            "Price": "$16.00",
+            "pdescription": "Sleeveless dark blue great for the summer months."
+        },{
+            "image1": "../threadsImages/womensTops/womansCokeTop.jpg",
+            "image2": "../threadsImages/womensTops/.jpg",
+            "itemTitle": "Coke Top",
+            "Price": "$10.00",
+            "pdescription": "stylish design."
+        },{
+            "image1": "../threadsImages/womensTops/noOneCaresWomansTop.jpg",
+            "image2": "../threadsImages/womensTops/.jpg",
+            "itemTitle": "No One Cares",
+            "Price": "$13.00",
+            "pdescription": "Interesting design for and interesting person."
+        }
+
+
+
+
+
+
+
+
+        
+    ]}

@@ -1,22 +1,73 @@
 {
-"items":[
-{
-    "image1":"../threadsImages/mensBottoms/frontBlueJeans.jpg",
-    "image2":"../threadsImages/mensBottoms/backBlueJeans.jpg",
-    "itemTitle":"Blue Jeans",
-    "Price":"$15.00",
-    "pdescription":"Some nice blue jeans. Made of denim in the USA."
-},
-
-{
-    "image1":"../threadsImages/mensBottoms/frontShorts.jpg",
-    "image2":"../threadsImages/mensBottoms/BackShorts.jpg",
-    "itemTitle":"Tan Shorts",
-    "Price":"$30.00",
-    "pdescription":"Tan shorts made of a stretchy material with an extra side pocket."
-}
-]
-
-
-
+    "items": [
+        {
+            "image1": "../threadsImages/mensBottoms/frontBlueJeans.jpg",
+            "image2": "../threadsImages/mensBottoms/backBlueJeans.jpg",
+            "itemTitle": "Blue Jeans",
+            "Price": "$15.00",
+            "pdescription": "Some nice blue jeans. Made of denim in the USA."
+        },
+        {
+            "image1": "../threadsImages/mensBottoms/frontShorts.jpg",
+            "image2": "../threadsImages/mensBottoms/BackShorts.jpg",
+            "itemTitle": "Tan Shorts",
+            "Price": "$30.00",
+            "pdescription": "Tan shorts made of a stretchy material with an extra side pocket."
+        },
+        {
+            "image1": "../threadsImages/mensBottoms/frontPants.jpg",
+            "image2": "../threadsImages/mensBottoms/sidePants.jpg",
+            "itemTitle": "Tan Pants",
+            "Price": "$40.00",
+            "pdescription": "Tan Pants basically blue jeans. They are very rugged good for any scenario you throw at them."
+        },
+        {
+            "image1": "../threadsImages/mensShoes/frontTurfShoes.jpg",
+            "image2": "../threadsImages/mensShoes/backTurfShoes.jpg",
+            "image3": "../threadsImages/mensShoes/sideTurfShoes.jpg",
+            "itemTitle": "Turf Shoes",
+            "Price": "$99.00",
+            "pdescription": "White turf shoes with great grip on the field."
+        },
+        {
+            "image1": "../threadsImages/mensShoes/brownShoes.jpg",
+            "image2": "../threadsImages/mensShoes/brownShoesBack.jpg",
+            "image3": "../threadsImages/mensShoes/brownShoesSide.jpg",
+            "itemTitle": "Brown Shoes",
+            "Price": "$10.00",
+            "pdescription": "Good shoes for dressing casual."
+        },
+        {
+            "image1": "../threadsImages/mensShoes/frontRunningShoes.jpg",
+            "image2": "../threadsImages/mensShoes/sideRunningShoes.jpg",
+            "image3": "../threadsImages/mensShoes/backRunningShoes.jpg",
+            "itemTitle": "Striped Running Shoes",
+            "Price": "$80.00",
+            "pdescription": "Striped shoes for a good look that can go with many clothing options."
+        },
+        {
+            "image1": "../threadsImages/mensTops/greyShirt1.jpg",
+            "image2": "../threadsImages/mensTops/greyShirt2",
+            "image3": "../threadsImages/mensTops/greyShirt3.jpg",
+            "itemTitle": "Grey Atheltic Shirt",
+            "Price": "$15.00",
+            "pdescription": "Grey athletic shirt made from a Dri-Fit meterial."
+        },
+        {
+            "image1": "../threadsImages/mensTops/shirt.jpg",
+            "image2": "../threadsImages/mensTops/.jpg",
+            "image3": "../threadsImages/mensTops/.jpg",
+            "itemTitle": "Striped Shirt",
+            "Price": "$10.00",
+            "pdescription": "Simple striped shirt good for many outings."
+        },
+        {
+            "image1": "../threadsImages/mensTops/frontCollaredShirt.jpg",
+            "image2": "../threadsImages/mensTops/backCollaredShirt.jpg",
+            "image3": "../threadsImages/mensTops/foldedCollaredShirt.jpg",
+            "itemTitle": "Collared Shirt",
+            "Price": "$19.00",
+            "pdescription": "Collared shirt made of a stretchy material good for golfing."
+        }
+    ]
 }
