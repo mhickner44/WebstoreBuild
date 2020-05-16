@@ -6,7 +6,7 @@
 
     <title>Threads Clothing</title>
     <link rel="stylesheet" href="threadsCSS.css">
-<script src="threadsJS.js" defer></script>
+    <script src="threadsJS.js" defer></script>
 
 </head>
 
@@ -14,9 +14,24 @@
 
     <header id="headerHome">
         <div class="navBar">
-            <a id="mensLink" href="mensPages/mensItemDisplay.html">Mens</a>
+            <div class="mensDropdown">
+                <a id="mensLink" href="mensPages/mensItemDisplay.html">Mens</a>
+                <div class="mensDDContent">
+                    <a href="mensPages/mensTopsDisplay.html">Tops</a>
+                    <a href="mensPages/mensBottomsDisplay.html">Bottoms</a>
+                    <a href="mensPages/mensShoesDisplay.html">Shoes</a>
+                </div>
+            </div>
             <a id="websiteTitle" href="threadsHomePage.html">T<span class="underline">HREA</span>DS</a>
-            <a id="womensLink" href="womensPages/womensItemsPage.html">Womens</a>
+            <div class="womensDropdown">
+                <a id="womensLink" href="womensPages/womensItemsPage.html">Womens</a>
+                <div class="womensDDContent">
+                    <a href="womensPages/womensTopsDisplay.html">Tops</a>
+                    <a href="womensPages/womensBottomsDisplay.html">Bottoms</a>
+                    <a href="womensPages/womensShoesDisplay.html">Shoes</a>
+                </div>
+            </div>
+
             <button id="shoppingCart">Shopping Cart</button>
         </div>
         <p id="space">
@@ -25,40 +40,46 @@
 
     </div>
     <div class="bannerImage">
-        <button class="leftButton" id="leftButton" >&lt;</button>
+        <button class="leftButton" id="leftButton">&lt;</button>
         <img id="bannerImage" src="threadsImages/peopleLounging.jpg" width="1000" alt="People Lounging">
         <button class="rightButton" id="rightButton">&gt;</button>
     </div>
     <h3 id="mensCat">Mens Categories</h3>
     <div class="mensPics">
-        
-            <div>
-                <h2>Bottoms</h2>
-                <a href="mensPages/mensBottomsDisplay.html">  <img src="threadsImages/twoPants.jpg" alt="Two poeple sitting with pants on"></a>
-            </div>
-            <div>
-                <h2>Tops</h2>
-                <a href="mensPages/mensTopsDisplay.html"> <img src="threadsImages/guyStanding.jpg" alt="guy standing with shirt on"></a>
-            </div>
-            <div>
-                <h2>Shoes</h2>
-                <a href="mensPages/mensShoesDisplay.html">  <img src="threadsImages/guyRidingSkateboard.jpg" alt="person on skateboard from knees down"></a>
-            </div>
-        
+
+        <div>
+            <h2>Bottoms</h2>
+            <a href="mensPages/mensBottomsDisplay.html"> <img src="threadsImages/twoPants.jpg"
+                    alt="Two poeple sitting with pants on"></a>
+        </div>
+        <div>
+            <h2>Tops</h2>
+            <a href="mensPages/mensTopsDisplay.html"> <img src="threadsImages/guyStanding.jpg"
+                    alt="guy standing with shirt on"></a>
+        </div>
+        <div>
+            <h2>Shoes</h2>
+            <a href="mensPages/mensShoesDisplay.html"> <img src="threadsImages/guyRidingSkateboard.jpg"
+                    alt="person on skateboard from knees down"></a>
+        </div>
+
     </div>
     <h3 id="womensCat">Womens Categories</h3>
     <div class="womensPics">
         <div>
             <h2> Bottoms</h2>
-            <a href="womensPages/womensBottomsDisplay.html">  <img  src="threadsImages/girlMountain.jpg" alt="Girl in front of a mountain view"></a>
+            <a href="womensPages/womensBottomsDisplay.html"> <img src="threadsImages/girlMountain.jpg"
+                    alt="Girl in front of a mountain view"></a>
         </div>
         <div>
             <h2>Tops</h2>
-            <a href="womensPages/womensTopsDisplay.html"> <img src="threadsImages/womanGrass.jpg" alt="Woman laying down on leaves"></a>
+            <a href="womensPages/womensTopsDisplay.html"> <img src="threadsImages/womanGrass.jpg"
+                    alt="Woman laying down on leaves"></a>
         </div>
         <div>
             <h2>Shoes</h2>
-            <a href="womensPages/womensShoesDisplay.html"> <img  src="threadsImages/womanStump.jpg" alt="Woman sitting on stump"></a>
+            <a href="womensPages/womensShoesDisplay.html"> <img src="threadsImages/womanStump.jpg"
+                    alt="Woman sitting on stump"></a>
         </div>
     </div>
 
@@ -75,11 +96,11 @@
         </div>
         <div class="row3">
             <h3>Social Media</h3>
-            <a href="https://twitter.com/intent/tweet?button_hashtag=link&ref_src=twsrc%5Etfw"
-                class="twitter-hashtag-button">Tweet #link</a>
-            <a href=>Instagram</a>
-            <a href=>snapchat</a>
-            <a href=>facebook</a>
+            <a href="https://twitter.com/explore"> <img src="threadsImages/twitter.jpg" alt="twitter"></a>
+            <a href="https://www.snapchat.com/"><img src="threadsImages/snapchat.png" alt="snapchat"></a>
+            <a href="https://www.facebook.com/"><img src="threadsImages/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/"> <img src="threadsImages/instagram.jpg" alt="Instagram"></a>
+
         </div>
 
     </footer>

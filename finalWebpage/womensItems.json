@@ -20,7 +20,7 @@
             "pdescription": "You can never go wrong with classic blue jeans."
         },{
             "image1": "../threadsImages/womensShoes/womansBlackHeels.jpg",
-            "image2": "../threadsImages/womensShoes/womansSparkleHeels.jpg",
+            "image2": "../threadsImages/womensShoes/.jpg",
             "itemTitle": "Black Heels",
             "Price": "$60.00",
             "pdescription": "High black heels for dressing up."
@@ -31,7 +31,7 @@
             "Price": "$80.00",
             "pdescription": "Classics look that is timeless."
         },{
-            "image1": "../threadsImages/womensShoes/womansSparkeHeels.jpg",
+            "image1": "../threadsImages/womensShoes/womansSparkleHeels.jpg",
             "image2": "../threadsImages/womensShoes/.jpg",
             "itemTitle": "SparklyHeels",
             "Price": "$100.00",

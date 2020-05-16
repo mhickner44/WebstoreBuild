@@ -47,16 +47,16 @@
         },
         {
             "image1": "../threadsImages/mensTops/greyShirt1.jpg",
-            "image2": "../threadsImages/mensTops/greyShirt2",
+            "image2": "../threadsImages/mensTops/greyShirt2.jpg",
             "image3": "../threadsImages/mensTops/greyShirt3.jpg",
-            "itemTitle": "Grey Atheltic Shirt",
+            "itemTitle": "Grey Athletic Shirt",
             "Price": "$15.00",
             "pdescription": "Grey athletic shirt made from a Dri-Fit meterial."
         },
         {
             "image1": "../threadsImages/mensTops/shirt.jpg",
-            "image2": "../threadsImages/mensTops/.jpg",
-            "image3": "../threadsImages/mensTops/.jpg",
+            "image2": "../threadsImages/mensTops/white.jpg",
+            "image3": "../threadsImages/mensTops/white.jpg",
             "itemTitle": "Striped Shirt",
             "Price": "$10.00",
             "pdescription": "Simple striped shirt good for many outings."

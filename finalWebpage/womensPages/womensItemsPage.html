@@ -1,95 +1,136 @@
 <DOCTYPE! html>
-<html>
+    <html>
 
-<head>
-    <meta charset="UTF-8">
-    
-    <title>Threads Clothing</title>
-    <link rel="stylesheet" href="../threadsCSS.css" ;>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Threads Clothing</title>
+        <link rel="stylesheet" href="../threadsCSS.css" ;>
+<script src="../womensItems.js" defer></script>
+
+    </head>
+
+    <body>
+        <header id="headerMensPage">
+            <div class="navBar">
+                <div class="mensDropdown">
+                    <a id="mensLink" href="../mensPages/mensItemDisplay.html">Mens</a>
+                    <div class="mensDDContent">
+                        <a href="../mensPages/mensTopsDisplay.html">Tops</a>
+                        <a href="../mensPages/mensBottomsDisplay.html">Bottoms</a>
+                        <a href="../mensPages/mensShoesDisplay.html">Shoes</a>
+                    </div>
+                </div>
+                <a id="websiteTitle" href="../threadsHomePage.html">T<span class="underline">HREA</span>DS</a>
+                <div class="womensDropdown">
+                    <a id="womensLink" href="womensItemsPage.html">Womens</a>
+                    <div class="womensDDContent">
+                        <a href="womensTopsDisplay.html">Tops</a>
+                        <a href="womensBottomsDisplay.html">Bottoms</a>
+                        <a href="womensShoesDisplay.html">Shoes</a>
+                    </div>
+                </div>
+                <button id="shoppingCart">Shopping Cart</button>
+        </header>
+        <h2 id="mensPageTitle">Womens Items</h2>
+        <div id="inventory"  class="inventory">
+            <div class="item">
+                <img id="noOneCaresWomansTop" src="../threadsImages/womensTops/noOneCaresWomansTop.jpg"
+                    alt="white shirt that says no one cares">
+                <h2>No One Cares shirt</h2>
+                <h3>$13.00</h3>
+            </div>
+            <div class="item1">
+                <img id="blueShirt" src="../threadsImages/womensTops/womansBlueTop.jpg" alt="womans blue top">
+                <h2>Blue Shirt</h2>
+                <h3>$16.00</h3>
+            </div>
+            <div class="item2">
+                <img id="cokeTop" src="../threadsImages/womensTops/womansCokeTop.jpg" alt="Coca Cola top">
+                <h2>Coke top</h2>
+                <h3>$10.00</h3>
+            </div>
+            <div class="item3">
+                <img id="lightBluePants" src="../threadsImages/womensBottoms/lightBluePants.jpg"
+                    alt="womensLight blue pants ">
+                <h2>Light Blue Pants</h2>
+                <h3>$30.00</h3>
+            </div>
+            <div class="item4">
+                <img id="blackPants" src="../threadsImages/womensBottoms/womansBlackPants.jpg" alt="womans black pants">
+                <h2>Black Pants</h2>
+                <h3>$23.00</h3>
+            </div>
+            <div class="item5">
+                <img id="blueJeans" src="../threadsImages/womensBottoms/womensBlueJeans.jpg" alt="woman in blue jeans">
+                <h2>Blue Jeans</h2>
+                <h3>$21.00</h3>
+            </div>
+
+            <div class="item6">
+                <img id="blackHeels" src="../threadsImages/womensShoes/womansBlackHeels.jpg" alt="black heels">
+                <h2>Black Heels</h2>
+                <h3>$60.00</h3>
+            </div>
+            <div class="item7">
+                <img id="sparklyHeels" src="../threadsImages/womensShoes/womansSparkleHeels.jpg" alt="sparkle heels">
+                <h2>Sparkly Heels</h2>
+                <h3>$100.00</h3>
+            </div>
+            <div class="item8">
+                <img id="whiteShoes" src="../threadsImages/womensShoes/womensWhiteShoes.jpg" alt="white Shoes">
+                <h2>White Shoes</h2>
+                <h3>$80.00</h3>
+            </div>
+        </div>
+        <!---item display-->
+        <div id="displayItem" class="displayItem">
+            
+            <div class="itemDisplay">
+
+                <div class="pictures">
+                    <div class="extraPictures">
+
+                    </div>
+                    <div class="itemPicture">
+                        <img id="image1" src="../threadsImages/mensTops/greyShirt1.jpg">
+                    </div>
+
+                </div>
+                <div class="itemInfo">
+                    <h2 id="itemTitle">Grey Athletic Shirt</h2>
+                    <h3 id="Price">$15.00</h3>
+                    <button id="addCart">Add to Cart</button>
+                    <h2 id="description">Description</h2>
+                    <p id="pDescription">This is a grey Athletic DRi-Fit shirt. The materials that it consists of are
+                        polyster,cotton, and nylon.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="row1">
+                <h3>About</h3>
+                When We Started<br>
+                How We Started<br>
+
+            </div>
+            <div class="row2">
+                <h3>Customer Service</h3>
+                Contact Us<br>
+            </div>
+            <div class="row3">
+                <h3>Social Media</h3>
+                <a href="https://twitter.com/intent/tweet?button_hashtag=link&ref_src=twsrc%5Etfw"
+                    class="twitter-hashtag-button">Tweet #link</a>
+                <a href=>Instagram</a>
+                <a href=>snapchat</a>
+                <a href=>facebook</a>
+            </div>
+
+        </footer>
 
 
-</head>
 
-<body>
-    <header id="headerMensPage">
-        <div class="navBar">
-            <a id="mensLink" href="../mensPages/mensItemDisplay.html">Mens</a>
-            <a id="websiteTitle" href="../threadsHomePage.html" >T<span class="underline">HREA</span>DS</a>
-            <a id="womensLink" href="womensItemsPage.html">Womens</a>
-            <button id="shoppingCart">Shopping Cart</button>
-    </header>
-    <h2 id="mensPageTitle">Womens Items</h2>
-    <div class="inventory">
-        <div class="item">
-            <a href="../mensItemsPages/redirectExample.html"> <img src="../threadsImages/womensTops/noOneCaresWomansTop.jpg" alt="white shirt that says no one cares"></a>
-            <h2>No One Cares shirt</h2>
-            <h3>$13.00</h3>
-        </div>
-        <div class="item1">
-            <a href="../mensItemsPages/redirectExample.html"><img src="../threadsImages/womensTops/womansBlueTop.jpg"  alt="womans blue top"></a>
-            <h2>Blue Shirt</h2>
-            <h3>$16.00</h3>
-        </div>
-        <div class="item2">
-            <a href="../mensItemsPages/redirectExample.html"> <img src="../threadsImages/womensTops/womansCokeTop.jpg"  alt="Coca Cola top"></a>
-            <h2>Coke top</h2>
-            <h3>$10.00</h3>
-        </div>
-        <div class="item3">
-            <a href="../mensItemsPages/redirectExample.html"> <img src="../threadsImages/womensBottoms/lightBluePants.jpg" alt="womensLight blue pants "></a>
-            <h2>Light Blue Pants</h2>
-            <h3>$30.00</h3>
-        </div>
-        <div class="item4">
-            <a href="../mensItemsPages/redirectExample.html"> <img src="../threadsImages/womensBottoms/womansBlackPants.jpg"  alt="womans black pants"></a>
-            <h2>Black Pants</h2>
-            <h3>$23.00</h3>
-        </div>
-        <div class="item5">
-            <a href="../mensItemsPages/redirectExample.html"><img src="../threadsImages/womensBottoms/womensBlueJeans.jpg"  alt="woman in blue jeans"></a>
-            <h2>Blue Jeans</h2> 
-            <h3>$21.00</h3>
-        </div>
-     
-        <div class="item6">
-            <a href="../mensItemsPages/redirectExample.html"> <img src="../threadsImages/womensShoes/womansBlackHeels.jpg" alt="black heels"></a>
-            <h2>Black Heels</h2>
-            <h3>$60.00</h3>
-        </div>
-        <div class="item7">
-            <a href="../mensItemsPages/redirectExample.html"><img src="../threadsImages/womensShoes/womansSparkleHeels.jpg"  alt="sparkle heels"></a>
-            <h2>Sparkly Heels</h2>
-            <h3>$100.00</h3>
-        </div>
-        <div class="item8">
-            <a href="../mensItemsPages/redirectExample.html"><img src="../threadsImages/womensShoes/womensWhiteShoes.jpg"  alt="white Shoes"></a>
-            <h2>White Shoes</h2>
-             <h3>$80.00</h3>
-        </div>
-    </div>
-
-    <footer>
-        <div class="row1">
-            <h3>About</h3>
-            When We Started<br>
-            How We Started<br>
-
-        </div>
-        <div class="row2">
-            <h3>Customer Service</h3>
-            Contact Us<br>
-        </div>
-        <div class="row3">
-           <h3>Social Media</h3>
-            <a href="https://twitter.com/intent/tweet?button_hashtag=link&ref_src=twsrc%5Etfw"
-                class="twitter-hashtag-button">Tweet #link</a>
-            <a href=>Instagram</a>
-            <a href=>snapchat</a>
-            <a href=>facebook</a>
-        </div>
-     
-    </footer>
-
-
-
-</body>
+    </body>

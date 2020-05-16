@@ -1,64 +1,104 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
 
-        <title>Threads Clothing</title>
-        <link rel="stylesheet" href="../threadsCSS.css">
-    </head>
+    <title>Threads Clothing</title>
+    <link rel="stylesheet" href="../threadsCSS.css">
+    <script src="../womensBottoms.js" defer></script>
+</head>
 
-    <body>
+<body>
 
-        <header id="headerMensPage">
-            <div class="navBar">
+    <header id="headerMensPage">
+        <div class="navBar">
+            <div class="mensDropdown">
                 <a id="mensLink" href="../mensPages/mensItemDisplay.html">Mens</a>
-                <a id="websiteTitle" href="../threadsHomePage.html" >T<span class="underline">HREA</span>DS</a>
-                <a id="womensLink" href="womensItemsPage.html">Womens</a>
-                <button id="shoppingCart">Shopping Cart</button>
+                <div class="mensDDContent">
+                    <a href="../mensPages/mensTopsDisplay.html">Tops</a>
+                    <a href="../mensPages/mensBottomsDisplay.html">Bottoms</a>
+                    <a href="../mensPages/mensShoesDisplay.html">Shoes</a>
+                </div>
             </div>
-        </header>
-        <h2 id="mensPageTitle">Womens Pants</h2>
-       <div class="inventory">
+            <a id="websiteTitle" href="../threadsHomePage.html">T<span class="underline">HREA</span>DS</a>
+            <div class="womensDropdown">
+                <a id="womensLink" href="womensItemsPage.html">Womens</a>
+                <div class="womensDDContent">
+                    <a href="womensTopsDisplay.html">Tops</a>
+                    <a href="womensBottomsDisplay.html">Bottoms</a>
+                    <a href="womensShoesDisplay.html">Shoes</a>
+                </div>
+            </div>
+            <button id="shoppingCart">Shopping Cart</button>
+        </div>
+    </header>
+    <h2 id="mensPageTitle">Womens Pants</h2>
+    <div id="inventory" class="inventory">
         <div class="item">
-           <a href="mensItemDisplay.html"> <img src="../threadsImages/womensBottoms/lightBluePants.jpg" alt="womensLight blue pants "></a>
+            <img id="lightBluePants" src="../threadsImages/womensBottoms/lightBluePants.jpg" alt="womensLight blue pants ">
             <h2>Light Blue Pants</h2>
             <h3>$30.00</h3>
         </div>
         <div class="item1">
-            <img src="../threadsImages/womensBottoms/womansBlackPants.jpg"  alt="womans black pants">
+            <img  id="blackPants" src="../threadsImages/womensBottoms/womansBlackPants.jpg" alt="womans black pants">
             <h2>Black Pants</h2>
             <h3>$23.00</h3>
         </div>
         <div class="item2">
-            <img src="../threadsImages/womensBottoms/womensBlueJeans.jpg"  alt="woman in blue jeans">
-            <h2>Blue Jeans</h2> 
+            <img id="blueJeans" src="../threadsImages/womensBottoms/womensBlueJeans.jpg" alt="woman in blue jeans">
+            <h2>Blue Jeans</h2>
             <h3>$21.00</h3>
         </div>
     </div>
+    <!---item display-->
+    <div id="displayItem" class="displayItem">
+        <h2 id="pageLocation">Womens Bottoms</h2>
+        <div class="itemDisplay">
 
-        <footer>
-            <div class="row1">
-                <h3>About</h3>
-                When We Started<br>
-                How We Started<br>
+            <div class="pictures">
+                <div class="extraPictures">
+                    
+                </div>
+                <div class="itemPicture">
+                    <img id="image1" src="../threadsImages/mensTops/greyShirt1.jpg">
+                </div>
 
             </div>
-            <div class="row2">
-                <h3>Customer Service</h3>
-                Contact Us<br>
+            <div class="itemInfo">
+                <h2 id="itemTitle">Grey Athletic Shirt</h2>
+                <h3 id="Price">$15.00</h3>
+                <button id="addCart">Add to Cart</button>
+                <h2 id="description">Description</h2>
+                <p id="pDescription">This is a grey Athletic DRi-Fit shirt. The materials that it consists of are
+                    polyster,cotton, and nylon.
+                </p>
             </div>
-            <div class="row3">
-                <h3>Social Media</h3>
-                <a href="https://twitter.com/intent/tweet?button_hashtag=link&ref_src=twsrc%5Etfw"
-                    class="twitter-hashtag-button">Tweet #link</a>
-                <a href=>Instagram</a>
-                <a href=>snapchat</a>
-                <a href=>facebook</a>
-            </div>
+        </div>
+    </div>
 
-        </footer>
+    <footer>
+        <div class="row1">
+            <h3>About</h3>
+            When We Started<br>
+            How We Started<br>
+
+        </div>
+        <div class="row2">
+            <h3>Customer Service</h3>
+            Contact Us<br>
+        </div>
+        <div class="row3">
+            <h3>Social Media</h3>
+            <a href="https://twitter.com/intent/tweet?button_hashtag=link&ref_src=twsrc%5Etfw"
+                class="twitter-hashtag-button">Tweet #link</a>
+            <a href=>Instagram</a>
+            <a href=>snapchat</a>
+            <a href=>facebook</a>
+        </div>
+
+    </footer>
 
 
 
-    </body>
+</body>

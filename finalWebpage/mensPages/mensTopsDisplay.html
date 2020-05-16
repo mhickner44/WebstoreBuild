@@ -6,37 +6,78 @@
 
     <title>Threads Clothing</title>
     <link rel="stylesheet" href="../threadsCSS.css">
+    <script src="../mensTops.js" defer></script>
 </head>
 
 <body>
 
     <header id="headerMensPage">
         <div class="navBar">
-            <a id="mensLink" href="mensItemDisplay.html">Mens</a>
+            <div class="mensDropdown">
+                <a id="mensLink" href="mensItemDisplay.html">Mens</a>
+                <div class="mensDDContent">
+                    <a href="mensTopsDisplay.html">Tops</a>
+                    <a href="mensBottomsDisplay.html">Bottoms</a>
+                    <a href="mensShoesDisplay.html">Shoes</a>
+                </div>
+            </div>
             <a id="websiteTitle" href="../threadsHomePage.html">T<span class="underline">HREA</span>DS</a>
-            <a id="womensLink" href="../womensPages/womensItemsPage.html">Womens</a>
+            <div class="womensDropdown">
+                <a id="womensLink" href="../womensPages/womensItemsPage.html">Womens</a>
+                <div class="womensDDContent">
+                    <a href="../womensPages/womensTopsDisplay.html">Tops</a>
+                    <a href="../womensPages/womensBottomsDisplay.html">Bottoms</a>
+                    <a href="../womensPages/womensShoesDisplay.html">Shoes</a>
+                </div>
+            </div>
+            
             <button id="shoppingCart">Shopping Cart</button>
         </div>
     </header>
     <h2 id="mensPageTitle">Mens Clothes</h2>
-    <div class="inventory">
+    <div id="inventory" class="inventory">
         <div class="item">
-            <a href="../mensItemsPages/greyShirt.html"> <img src="../threadsImages/mensTops/greyShirt2.jpg" alt="grey shirt"></a>
+            <img id="greyShirt" src="../threadsImages/mensTops/greyShirt2.jpg" alt="grey shirt">
             <h2>Grey Athletic Shirt</h2>
             <h3>$15.00</h3>
         </div>
         <div class="item1">
-            <img src="../threadsImages/mensTops/shirt.jpg" alt="Striped shirt">
+            <img id="stripedShirt" src="../threadsImages/mensTops/shirt.jpg" alt="Striped shirt">
             <h2>Striped Shirt</h2>
             <h3>$10.00</h3>
         </div>
         <div class="item2">
-            <img src="../threadsImages/mensTops/frontCollaredShirt.jpg" alt="Collared shirt">
+            <img id="collaredShirt" src="../threadsImages/mensTops/frontCollaredShirt.jpg" alt="Collared shirt">
             <h2>Collared Shirt</h2>
             <h3>$19.00</h3>
         </div>
     </div>
+ <!---item display-->
+ <div id="displayItem" class="displayItem">
+    <h2 id="pageLocation">Mens Tops</h2>
+    <div class="itemDisplay">
 
+        <div class="pictures">
+            <div class="extraPictures">
+                <img id="image3" src="../threadsImages/mensTops/greyShirt2.jpg">
+                <img id="image2" src="../threadsImages/mensTops/greyShirt3.jpg">
+            </div>
+            <div class="itemPicture">
+                <img id="image1" src="../threadsImages/mensTops/greyShirt1.jpg">
+            </div>
+
+        </div>
+        <div class="itemInfo">
+            <h2 id="itemTitle">Grey Athletic Shirt</h2>
+            <h3 id="Price">$15.00</h3>
+            <button id="addCart">Add to Cart</button>
+            <h2 id="description">Description</h2>
+            <p id="pDescription">This is a grey Athletic DRi-Fit shirt. The materials that it consists of are
+                polyster,cotton, and nylon.
+            </p>
+        </div>
+    </div>
+</div>
     <footer>
         <div class="row1">
             <h3>About</h3>
