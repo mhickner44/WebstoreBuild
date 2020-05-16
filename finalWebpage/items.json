@@ -55,8 +55,8 @@
         },
         {
             "image1": "../threadsImages/mensTops/shirt.jpg",
-            "image2": "../threadsImages/mensTops/white.jpg",
-            "image3": "../threadsImages/mensTops/white.jpg",
+            "image2": "../threadsImages/white.jpg",
+            "image3": "../threadsImages/white.jpg",
             "itemTitle": "Striped Shirt",
             "Price": "$10.00",
             "pdescription": "Simple striped shirt good for many outings."
