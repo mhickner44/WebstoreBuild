@@ -44,7 +44,7 @@ function lightBluePantsDisplay() {
 
    //set the details
    image1.src = theItem[0].image1;
-   image2.src = theItem[0].image2;
+   
    
    itemTitle.innerHTML = theItem[0].itemTitle;
    Price.innerHTML = theItem[0].Price;
@@ -63,7 +63,7 @@ function blackPantsDisplay() {
 
    //set the details
    image1.src = theItem[1].image1;
-   image2.src = theItem[1].image2;
+
    
    itemTitle.innerHTML = theItem[1].itemTitle;
    Price.innerHTML = theItem[1].Price;
@@ -82,7 +82,7 @@ function blueJeansDisplay() {
 
    //set the details
    image1.src = theItem[2].image1;
-   image2.src = theItem[2].image2;
+  
    
    itemTitle.innerHTML = theItem[2].itemTitle;
    Price.innerHTML = theItem[2].Price;

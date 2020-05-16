@@ -40,7 +40,7 @@ function noOneCaresDisplay() {
  
     //set the details
     image1.src = theItem[8].image1;
-    image2.src = theItem[8].image2;
+    
    
     itemTitle.innerHTML = theItem[8].itemTitle;
     Price.innerHTML = theItem[8].Price;
@@ -60,7 +60,7 @@ function noOneCaresDisplay() {
  
     //set the details
     image1.src = theItem[6].image1;
-    image2.src = theItem[6].image2;
+ 
     
     itemTitle.innerHTML = theItem[6].itemTitle;
     Price.innerHTML = theItem[6].Price;
@@ -76,7 +76,7 @@ function noOneCaresDisplay() {
     displayItem.style.display = "initial";
  
     image1.src = theItem[7].image1;
-    image2.src = theItem[7].image2;
+
     
     itemTitle.innerHTML = theItem[7].itemTitle;
     Price.innerHTML = theItem[7].Price;

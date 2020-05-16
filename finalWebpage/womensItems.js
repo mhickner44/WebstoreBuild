@@ -57,7 +57,7 @@ function noOneCaresDisplay() {
 
    //set the details
    image1.src = theItem[8].image1;
-   image2.src = theItem[8].image2;
+  
   
    itemTitle.innerHTML = theItem[8].itemTitle;
    Price.innerHTML = theItem[8].Price;
@@ -77,7 +77,7 @@ function blueShirtDisplay() {
 
    //set the details
    image1.src = theItem[6].image1;
-   image2.src = theItem[6].image2;
+  
    
    itemTitle.innerHTML = theItem[6].itemTitle;
    Price.innerHTML = theItem[6].Price;
@@ -93,7 +93,7 @@ function cokeTopDisplay() {
    displayItem.style.display = "initial";
 
    image1.src = theItem[7].image1;
-   image2.src = theItem[7].image2;
+ 
    
    itemTitle.innerHTML = theItem[7].itemTitle;
    Price.innerHTML = theItem[7].Price;
@@ -111,7 +111,7 @@ function lightBluePantsDisplay() {
  
     //set the details
     image1.src = theItem[0].image1;
-    image2.src = theItem[0].image2;
+   
     
     itemTitle.innerHTML = theItem[0].itemTitle;
     Price.innerHTML = theItem[0].Price;
@@ -129,7 +129,7 @@ function lightBluePantsDisplay() {
  
     //set the details
     image1.src = theItem[1].image1;
-    image2.src = theItem[1].image2;
+
     
     itemTitle.innerHTML = theItem[1].itemTitle;
     Price.innerHTML = theItem[1].Price;
@@ -147,7 +147,7 @@ function lightBluePantsDisplay() {
  
     //set the details
     image1.src = theItem[2].image1;
-    image2.src = theItem[2].image2;
+
     
     itemTitle.innerHTML = theItem[2].itemTitle;
     Price.innerHTML = theItem[2].Price;
@@ -165,7 +165,7 @@ function lightBluePantsDisplay() {
  
     //set the details
     image1.src = theItem[3].image1;
-    image2.src = theItem[3].image2;
+
     
     itemTitle.innerHTML = theItem[3].itemTitle;
     Price.innerHTML = theItem[3].Price;
@@ -183,7 +183,7 @@ function lightBluePantsDisplay() {
  
     //set the details
     image1.src = theItem[5].image1;
-    image2.src = theItem[5].image2;
+   
     
     itemTitle.innerHTML = theItem[5].itemTitle;
     Price.innerHTML = theItem[5].Price;
@@ -201,7 +201,7 @@ function lightBluePantsDisplay() {
  
     //set the details
     image1.src = theItem[4].image1;
-    image2.src = theItem[4].image2;
+  
     
     itemTitle.innerHTML = theItem[4].itemTitle;
     Price.innerHTML = theItem[4].Price;
